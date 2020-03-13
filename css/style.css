@@ -1349,7 +1349,8 @@ body.offcanvas .nav-toggle {
 }
 
 #about .about-img-box .about-img {
-  background-image: url(../images/img_bg_4.jpg);
+  background-image: url(../images/img_profile.jpg);
+  background-position: top;
   width: 100% !important;
   height: 390px;
   position: absolute;
