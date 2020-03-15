@@ -1193,6 +1193,16 @@ body.offcanvas .nav-toggle {
   font-family: "Quicksand", Arial, sans-serif;
 }
 
+#banner .flexslider .slider-text>.slider-text-inner h3 br {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  #banner .flexslider .slider-text>.slider-text-inner h3 br {
+    display: initial;
+  }
+}
+
 #banner .flexslider .slider-text>.slider-text-inner h2 {
   margin-bottom: 10px;
   font-size: 80px;
@@ -1203,7 +1213,13 @@ body.offcanvas .nav-toggle {
 
 @media screen and (max-width: 768px) {
   #banner .flexslider .slider-text>.slider-text-inner h2 {
-    font-size: 30px;
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #banner .flexslider .slider-text>.slider-text-inner h2 {
+    font-size: 40px;
   }
 }
 
