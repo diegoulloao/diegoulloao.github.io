@@ -1817,6 +1817,42 @@ body.offcanvas .nav-toggle {
   opacity: 1;
 }
 
+@media screen and (max-width: 414px) {
+  #work .work-item:hover .hover-links {
+    padding: 30px;
+  }
+
+  #work .work-item:hover .hover-links h3 {
+    font-size: 20px;
+  }
+
+  #work .work-item:hover .hover-links span {
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #work .work-item:hover .hover-links h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #work .work-item:hover .hover-links {
+    padding: 25px;
+    outline-offset: -10px;
+  }
+
+  #work .work-item:hover .hover-links h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  #work .work-item:hover .hover-links span {
+    font-size: 13px;
+  }
+}
+
 #work .work-item .hover-links a{
   color:#fff;
 }
